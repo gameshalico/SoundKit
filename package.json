@@ -1,0 +1,11 @@
+﻿{
+  "name": "com.gameshalico.sound-kit",
+  "displayName": "Sound Kit",
+  "description": "",
+  "version": "0.1.0",
+  "author": {
+    "name": "Gameshalico",
+    "email": "contact@gameshalico.com",
+    "url": "https://gameshalico.com"
+  }
+}
