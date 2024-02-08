@@ -1,11 +1,10 @@
 ﻿{
   "name": "com.gameshalico.sound-kit",
   "displayName": "Sound Kit",
-  "description": "",
+  "description": "A simple package for playing sounds easily.",
   "version": "0.1.0",
   "author": {
     "name": "Gameshalico",
-    "email": "contact@gameshalico.com",
     "url": "https://gameshalico.com"
   }
 }
