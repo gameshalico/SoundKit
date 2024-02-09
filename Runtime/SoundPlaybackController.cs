@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
-using R3;
+using UniRx;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -345,7 +345,7 @@ namespace SoundKit
         public async UniTask<PlayEndType> ToUniTask()
         {
             ThrowIfReleased();
-            return await _soundPlayer.OnPlayEnd.FirstAsync();
+            return await _soundPlayer.OnPlayEnd.First().ToUniTask();
         }
 
         private void ThrowIfReleased()

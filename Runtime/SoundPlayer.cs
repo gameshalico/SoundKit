@@ -1,5 +1,5 @@
 ﻿using System;
-using R3;
+using UniRx;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -14,7 +14,7 @@ namespace SoundKit
         private AudioSource _audioSource;
         private bool _isUsing;
 
-        public Observable<PlayEndType> OnPlayEnd => _onPlayEnd;
+        public IObservable<PlayEndType> OnPlayEnd => _onPlayEnd;
 
         public AudioClip Clip => _audioSource.clip;
         public AudioMixerGroup OutputAudioMixerGroup => _audioSource.outputAudioMixerGroup;

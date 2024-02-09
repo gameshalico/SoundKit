@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using R3;
+using UniRx;
 using UnityEngine;
 
 namespace SoundKit
